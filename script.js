@@ -73,7 +73,7 @@ function weatherDetails(info){
         }else if(id >= 701 && id <= 781){
             wIcon.src = "https://abhishekmorla-weather.netlify.app/haze.svg";
         }else if(id >= 801 && id <= 804){
-            wIcon.src = "h/cloud.svg";
+            wIcon.src = "https://abhishekmorla-weather.netlify.app/cloud.svg";
         }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
             wIcon.src = "https://abhishekmorla-weather.netlify.app/rain.svg";
         }
