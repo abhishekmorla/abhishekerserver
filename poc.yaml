@@ -1,0 +1,12 @@
+---
+openapi: 3.0.1
+info:
+  title: SYNACK Api
+  version: '1.0'
+paths:
+  "/path/malformed/by/SYNACK":
+    post:
+      tags:
+      - SYNACK
+      parameters:
+      - name: SYNACK
